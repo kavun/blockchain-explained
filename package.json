@@ -1,0 +1,24 @@
+{
+  "name": "blockchain-explained",
+  "main": "./src/index.js",
+  "description": "following https://medium.com/geekculture/blockchain-explained-in-50-lines-of-code-1dbf4eda0201",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "start": "ts-node ./src/index.ts"
+  },
+  "author": "Kevin Reed <kevin.a.reed@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/crypto-js": "^4.1.1",
+    "@types/jest": "^27.5.1",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.2",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
